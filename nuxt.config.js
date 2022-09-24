@@ -82,7 +82,7 @@ export default {
           success: colors.green.accent3
         },
         light: {
-          primary: colors.blue.darken2,
+          primary: colors.blue.darken4,
           bg: '#ffffff',
           surface: '#ffffff',
           accent: colors.grey.darken3,

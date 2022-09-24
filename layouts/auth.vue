@@ -1,0 +1,29 @@
+<template>
+  <v-app dark>
+    <v-main aling="center" class="my-auto">
+      <v-container class="fill-height">
+        <v-row justify="center" align="center" class="rounded">
+          <v-col cols="6" class="fill-height light-blue lighten-1 rounded-l">
+          </v-col>
+          <v-col cols="6">
+            <v-row justify="center" align="center">
+                <Nuxt />
+            </v-row>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-main>
+  </v-app>
+</template>
+<script>
+export default {
+  name: "Login",
+  layout: "auth",
+ 
+}
+</script>
+<style lang="sass" scoped>
+.row
+  height: 500px,
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px,
+</style>
