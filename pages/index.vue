@@ -22,10 +22,12 @@
         required
       ></v-text-field>
 
-      <v-btn :disabled="!valid" color="success" class="mt-4" type="submit">
+      <v-btn :disabled="!valid" block color="primary" class="mt-3" type="submit" rounded>
         Entrar
       </v-btn>
-      <v-btn color="indigo" outlined class="ml-4 mt-4"> Cadastrar </v-btn>
+      <p class="mt-3 text-caption">
+        Para se cadastrar, <nuxt-link to="/cadastre-se">clique aqui</nuxt-link>.
+      </p>
     </v-form>
   </v-col>
 </template>

@@ -24,6 +24,6 @@ export default {
 </script>
 <style lang="sass" scoped>
 .row
-  height: 500px,
+  height: 31.25rem,
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px,
 </style>
