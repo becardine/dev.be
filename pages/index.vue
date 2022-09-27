@@ -60,6 +60,7 @@ export default {
     }, */
     async userLogin() {
       this.$refs.form.validate();
+      this.$router.push('/dashboard/')
       /* try {
         //let response = await this.$auth.loginWith('local', { data: this.login })
         this.$refs.form.reset();
