@@ -52,7 +52,7 @@
         <v-row>
           <v-col>
             <v-sheet min-height="70vh" rounded="lg">
-              <!--  -->
+              <Nuxt />
             </v-sheet>
           </v-col>
         </v-row>
